@@ -1,23 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/goit-js-hw-10/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Homework9</title>
-    <script type="module" crossorigin src="/goit-js-hw-10/index.js"></script>
-    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/styles-DTzD-3L3.js">
-    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/styles-C-ctPO51.css">
-  </head>
-  <body>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework11</title>
+  <script type="module" crossorigin src="/goit-js-hw-11/index.js"></script>
+  <link rel="modulepreload" crossorigin href="/goit-js-hw-11/assets/vendor-hwdYKDic.js">
+  <link rel="stylesheet" crossorigin href="/goit-js-hw-11/assets/vendor-CX4EDM7x.css">
+  <link rel="stylesheet" crossorigin href="/goit-js-hw-11/assets/index-DBkY0fMC.css">
+</head>
+<body>
+    <header>
+        <form class="search-form">
+            <input class="input" type="text" name="searchQuery" placeholder="Search images...">
+            <button type="submit" class="btn">Search</button>
+        </form>
+    </header>
     <main>
-      <nav class="container">
-        <ul class="nav-list">
-          <li class="button-link"><a href="./1-timer.html">Go to Timer</a></li>
-          <li class="button-link"><a href="./2-snackbar.html">Go to Snackbar</a></li>
-        </ul>
-      </nav>
+        <div class="loader" style="display: none;">Loading images, please wait...</div>
+        <div class="gallery"></div>
     </main>
-
-  </body>
+</body>
 </html>
